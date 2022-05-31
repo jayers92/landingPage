@@ -22,7 +22,8 @@
  * Define Global Variables
  * 
 */
-
+const listElem = document.createElement(li);
+const sectionElem = document.querySelectorAll(section);
 
 /**
  * End Global Variables
@@ -39,7 +40,9 @@
 */
 
 // build the nav
-
+for (let i = 0; i < sectionElem; i = i + 1) {
+  
+};
 
 // Add class 'active' to section when near top of viewport
 
